@@ -1,0 +1,39 @@
+*{
+  background-color: blanchedalmond;
+}
+.form-parent{
+  /* border: 2px solid red; */
+  margin: 4% 35%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40vw;
+  height: 100vw;
+  justify-content: center;
+
+}
+.form-parent input{
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: azure;
+}
+.form-parent p{
+  color: red;
+  font-size: 12px;
+
+}
+
+#register{
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 900;
+}
+#succes_msg{
+  color: green;
+  font-size: 18px;
+}
