@@ -3,20 +3,20 @@
 }
 .form-parent{
   /* border: 2px solid red; */
-  margin: 4% 35%;
+  /* margin: 4% 35%; */
   padding: 15px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 40vw;
-  height: 100vw;
+  width: 100vw;
+  align-items: center;
   justify-content: center;
 
 }
 .form-parent input{
   display: block;
   height: 40px;
-  width: 100%;
+  width: 400px;
   margin-bottom: 10px;
   background-color: azure;
 }
